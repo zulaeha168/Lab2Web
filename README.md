@@ -554,7 +554,12 @@ switch  ($mod) {
 ```
 ## Hasil Run
 
-https://github.com/zulaeha168/ModulPraktikum1-2-3-PHPDasar_PemogramanWeb/assets/130324650/69f32bb4-f7d3-430b-baf8-d69fef7b6f5c
+
+
+
+https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/c7ff479f-8357-471a-bc5d-170217dd10b8
+
+
 
   
 # Sekian, Terima kasih.
