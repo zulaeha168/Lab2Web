@@ -120,12 +120,12 @@ MATA KULIAH    : PEMOGRAMAN WEB 2
 ```
 ## Hasil Run 
 
-  
-![Screenshot (147)](https://github.com/zulaeha168/ModulPraktikum1-2-3-PHPDasar_PemogramanWeb/assets/130324650/e21f0939-7061-441d-93eb-b411f4040dc2)
 
-![Screenshot (149)](https://github.com/zulaeha168/ModulPraktikum1-2-3-PHPDasar_PemogramanWeb/assets/130324650/64c6d16c-7cee-4c14-9f0c-1841e56fa580)
+![Screenshot (147)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/91aeef0d-0636-4a59-9ffe-e89ef9b4af92)
 
-![Screenshot (150)](https://github.com/zulaeha168/ModulPraktikum1-2-3-PHPDasar_PemogramanWeb/assets/130324650/9b8f24fe-aa50-47d1-ad08-badba07cc8eb)
+![Screenshot (149)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/9e16157e-f422-4422-99b1-069070f06e7f)
+
+![Screenshot (150)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/0e33f3e6-69f1-4a51-96c4-4faf690e8495)
 
 ## TUGAS FORM INPUT
 
@@ -190,7 +190,7 @@ MATA KULIAH    : PEMOGRAMAN WEB 2
 
 ## Hasil Run
 
-![Screenshot (153)](https://github.com/zulaeha168/ModulPraktikum1-2-3-PHPDasar_PemogramanWeb/assets/130324650/276363ea-fc42-4b52-827b-e36a2f7dc7a2)
+![Screenshot (153)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/9e56b07b-3152-4d36-b715-4cf3c5e9058c)
 
 ## Lab3 PHP DATABASE
 
@@ -212,7 +212,7 @@ die();
 
 ## Hasil Run
 
-![image](https://github.com/zulaeha168/ModulPraktikum1-2-3-PHPDasar_PemogramanWeb/assets/130324650/78e3c95a-a987-4e9d-9a11-cf5f89ab92f2)
+![Screenshot (158)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/d1c74fd3-3e0f-444d-b9f9-328658c6865d)
 
 > `Index`
 ```
@@ -273,7 +273,8 @@ $result = mysqli_query($conn, $sql);
 
 ## Hasil Run
 
-![image](https://github.com/zulaeha168/ModulPraktikum1-2-3-PHPDasar_PemogramanWeb/assets/130324650/e808311b-abfa-42e8-973b-939039075885)
+![Screenshot (159)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/79de340f-31e6-4bcf-b08e-6b83878f1a9b)
+
 
 > `Tambah`
 ```
@@ -360,7 +361,8 @@ data">
 ```
 ## Hasil Run
 
-![Screenshot (160)](https://github.com/zulaeha168/ModulPraktikum1-2-3-PHPDasar_PemogramanWeb/assets/130324650/cd1ab3ba-c1fa-4f43-b711-579c75e1bf4a)
+![Screenshot (160)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/cedc71b0-9d39-4ea0-bd4e-87e9964e7fc9)
+
 
 > `Ubah`
 ```
@@ -468,9 +470,10 @@ data">
 
 ## Hasil Run 
 
-![Screenshot (163)](https://github.com/zulaeha168/ModulPraktikum1-2-3-PHPDasar_PemogramanWeb/assets/130324650/1077f502-4d66-4432-b470-8e3546834193)
+![Screenshot (163)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/b21c06c3-c9f4-4652-9f26-5d928e17f7e9)
 
-![Screenshot (164)](https://github.com/zulaeha168/ModulPraktikum1-2-3-PHPDasar_PemogramanWeb/assets/130324650/22d5395b-d999-4ebd-bdc1-69f5152f9d13)
+![Screenshot (164)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/af4c5bd0-1a47-4572-a6a3-8098b71055d3)
+
 
 ## Lab4 PHP MODULAR
 
@@ -555,11 +558,7 @@ switch  ($mod) {
 ## Hasil Run
 
 
-
-
-https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/c7ff479f-8357-471a-bc5d-170217dd10b8
-
-
+https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/3c05596b-7a15-4e9d-aee3-48529b8a8bd3
 
   
 # Sekian, Terima kasih.
