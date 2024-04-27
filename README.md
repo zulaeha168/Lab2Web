@@ -12,15 +12,15 @@ MATA KULIAH    : PEMOGRAMAN WEB 2
 # **Daftar Isi**
 ***Harap klik satu persatu agar update penjelasan dan hasil program terlihat berurutan***
 
-- **[Lab2 PHP_DASAR](#Lab2-PHP-DASAR)**
+- **[Lab2 PHP_DASAR](#Lab2-PHP_DASAR)**
   
 - **[Tugas FORM INPUT](#TUGAS-FORM-INPUT)**
 
-- **[Lab3 PHP_DATABASE](#Lab3-PHP-DATABASE)**
+- **[Lab3 PHP_DATABASE](#Lab3-PHP_DATABASE)**
 
-- **[Lab4 PHP_MODULAR](#Lab4-PHP-MODULAR)**
+- **[Lab4 PHP_MODULAR](#Lab4-PHP_MODULAR)**
 
-- **[Lab5 PHP_OOP](#Lab5-PHP-OOP)**
+- **[Lab5 PHP_OOP](#Lab5-PHP_OOP)**
 
 
 ## Lab2 PHP_DASAR
