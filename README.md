@@ -194,6 +194,13 @@ MATA KULIAH    : PEMOGRAMAN WEB 2
 
 ## Lab3 PHP DATABASE
 
+> `Buat database latihan1`
+![Latihan1](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/bb57c174-c805-40f2-99a2-c7c28e12c533)
+
+> `Masukan tabel`
+![Screenshot (167)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/805cc0b2-90cd-43b6-8d31-4c9796cd961b)
+
+
 > `Koneksi`
 ```
 <?php
