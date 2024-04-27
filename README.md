@@ -120,13 +120,12 @@ Script untuk file bernama > `php_dasar.php `
 </html>
 ```
 ## Hasil Run 
+![Screenshot (170)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/dc9d6bae-765f-4d5d-8b68-22acbd783e72)
 
+![Screenshot (171)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/1b43a7c0-3b8b-42eb-8b03-a538f81ab982)
 
-![Screenshot (147)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/91aeef0d-0636-4a59-9ffe-e89ef9b4af92)
+![Screenshot (172)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/db02de17-8ea2-489b-bb22-4f3b4c570399)
 
-![Screenshot (149)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/9e16157e-f422-4422-99b1-069070f06e7f)
-
-![Screenshot (150)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/0e33f3e6-69f1-4a51-96c4-4faf690e8495)
 
 ## TUGAS FORM INPUT
 
