@@ -10,7 +10,7 @@ DOSEN PENGAMPU : AGUNG NUGROHO S.KOM., M.KOM
 MATA KULIAH    : PEMOGRAMAN WEB 2
 
 ## Lab2 PHP_DASAR
-Script untuk file bernama > `php_dasar.php: `
+Script untuk file bernama > `php_dasar.php :`
 
 ```
 <!DOCTYPE html>
@@ -571,7 +571,7 @@ https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/3c05596b-7a15-
 
 ## Lab5 PHP_OOP
 
-> `Database`
+> `Database.php`
 ```
 <?php
 class Database
