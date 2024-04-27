@@ -10,7 +10,7 @@ DOSEN PENGAMPU : AGUNG NUGROHO S.KOM., M.KOM
 MATA KULIAH    : PEMOGRAMAN WEB 2
 
 ## Lab2 PHP_DASAR
-Script untuk file bernama > `php_dasar.php :`
+Script untuk file bernama > `php_dasar.php `
 
 ```
 <!DOCTYPE html>
