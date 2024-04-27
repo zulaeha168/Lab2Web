@@ -10,6 +10,7 @@ DOSEN PENGAMPU : AGUNG NUGROHO S.KOM., M.KOM
 MATA KULIAH    : PEMOGRAMAN WEB 2
 
 ## Lab2 PHP_DASAR
+Script untuk file bernama > `php_dasar.php: `
 
 ```
 <!DOCTYPE html>
@@ -192,16 +193,17 @@ MATA KULIAH    : PEMOGRAMAN WEB 2
 
 ![Screenshot (153)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/9e56b07b-3152-4d36-b715-4cf3c5e9058c)
 
-## Lab3 PHP DATABASE
+## Lab3 PHP_DATABASE
 
 > `Buat database latihan1`
 ![Latihan1](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/bb57c174-c805-40f2-99a2-c7c28e12c533)
 
 > `Masukan tabel`
+
 ![Screenshot (167)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/805cc0b2-90cd-43b6-8d31-4c9796cd961b)
 
 
-> `Koneksi`
+> `Koneksi.php`
 ```
 <?php
 $host = "localhost";
@@ -221,7 +223,7 @@ die();
 
 ![Screenshot (158)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/d1c74fd3-3e0f-444d-b9f9-328658c6865d)
 
-> `Index`
+> `Index.php`
 ```
 <?php
 include("koneksi.php");
@@ -283,7 +285,7 @@ $result = mysqli_query($conn, $sql);
 ![Screenshot (159)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/79de340f-31e6-4bcf-b08e-6b83878f1a9b)
 
 
-> `Tambah`
+> `Tambah.php`
 ```
 <?php
 error_reporting(E_ALL);
@@ -371,7 +373,7 @@ data">
 ![Screenshot (160)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/cedc71b0-9d39-4ea0-bd4e-87e9964e7fc9)
 
 
-> `Ubah`
+> `Ubah.php`
 ```
 <?php
 error_reporting(E_ALL);
@@ -482,9 +484,9 @@ data">
 ![Screenshot (164)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/af4c5bd0-1a47-4572-a6a3-8098b71055d3)
 
 
-## Lab4 PHP MODULAR
+## Lab4 PHP_MODULAR
 
-> `Index`
+> `Index.php`
 ```
 <?php
 
@@ -551,7 +553,7 @@ switch  ($mod) {
 </html>
 ```
 
-> `About`
+> `About.php`
 ```
 <?php require('header.php'); ?>
 
@@ -566,6 +568,212 @@ switch  ($mod) {
 
 
 https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/3c05596b-7a15-4e9d-aee3-48529b8a8bd3
+
+## Lab5 PHP_OOP
+
+> `Database`
+```
+<?php
+class Database
+{
+    protected $host;
+    protected $user;
+    protected $password;
+    protected $db_name;
+    protected $conn;
+    public function __construct()
+    {
+        $this->getConfig();
+        $this->conn = new mysqli(
+            $this->host,
+            $this->user,
+            $this->password,
+            $this->db_name
+        );
+        if ($this->conn->connect_error) {
+            die("Connection failed: " . $this->conn->connect_error);
+        }
+    }
+    private function getConfig()
+    {
+        include_once("config.php");
+        $this->host = $config['host'];
+        $this->user = $config['username'];
+        $this->password = $config['password'];
+        $this->db_name = $config['db_name'];
+    }
+    public function query($sql)
+    {
+        return $this->conn->query($sql);
+    }
+    public function get($table, $where = null)
+    {
+        if ($where) {
+            $where = " WHERE " . $where;
+        }
+        $sql = "SELECT * FROM " . $table . $where;
+        $sql = $this->conn->query($sql);
+        $sql = $sql->fetch_assoc();
+        return $sql;
+    }
+    public function insert($table, $data)
+    {
+        if (is_array($data)) {
+            foreach ($data as $key => $val) {
+                $column[] = $key;
+                $value[] = "'{$val}'";
+            }
+            $columns = implode(",", $column);
+            $values = implode(",", $value);
+        }
+        $sql = "INSERT INTO " . $table . " (" . $columns . ") VALUES (" . $values . ")";
+        $sql = $this->conn->query($sql);
+        if ($sql == true) {
+            return $sql;
+        } else {
+            return false;
+        }
+    }
+    public function update($table, $data, $where)
+    {
+        $update_value = "";
+        if (is_array($data)) {
+            foreach ($data as $key => $val) {
+                $update_value[] = "$key='{$val}'";
+            }
+            $update_value = implode(",", $update_value) ;
+        }
+        $sql = "UPDATE " . $table . " SET " . $update_value . " WHERE " . $where;
+        $sql = $this->conn->query($sql);
+        if ($sql == true) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    public function delete($table, $filter)
+    {
+        $sql = "DELETE FROM " . $table . " " . $filter;
+        $sql = $this->conn->query($sql);
+        if ($sql == true) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+}
+```
+
+> `Form_input.php`
+```
+<?php
+
+/**
+ * Program memanfaatkan Program 10.2 untuk membuat form inputan sederhana.
+ **/
+include "form.php";
+echo "<html><head><title>Mahasiswa</title></head><body>";
+$form = new Form("", "Input Form");
+$form->addField("txtnim", "Nim");
+$form->addField("txtnama", "Nama");
+$form->addField("txtalamat", "Alamat");
+echo "<h3>Silahkan isi form berikut ini :</h3>";
+$form->displayForm();
+echo "</body></html>";
+
+```
+
+> `Form.php`
+```
+<?php
+
+/**
+ * Nama Class: Form
+ * Deskripsi: CLass untuk membuat form inputan text sederhan
+ **/
+class Form
+{
+    private $fields = array();
+    private $action;
+    private $submit = "Submit Form";
+    private $jumField = 0;
+    public function _construct($action, $submit)
+    {
+        $this->action = $action;
+        $this->submit = $submit;
+    }
+    public function displayForm()
+    {
+        echo "<form action='" . $this->action . "' method='POST'>";
+        echo '<table width="100%" border="0">';
+        for ($j = 0; $j < count($this->fields); $j++) {
+            echo "<tr><td
+
+align='right'>" . $this->fields[$j]['label'] . "</td>";
+
+            echo "<td><input type='text'
+
+name='" . $this->fields[$j]['name'] . "'></td></tr>";
+        }
+        echo "<tr><td colspan='2'>";
+        echo "<input type='submit' value='" . $this->submit . "'></td></tr>";
+        echo "</table>";
+    }
+    public function addField($name, $label)
+    {
+        $this->fields[$this->jumField]['name'] = $name;
+        $this->fields[$this->jumField]['label'] = $label;
+        $this->jumField++;
+    }
+}
+```
+> `Mobil.php`
+```
+<?php
+
+/**
+ * Program sederhana pendefinisian class dan pemanggilan class.
+ **/
+class Mobil
+{
+    private $warna;
+    private $merk;
+    private $harga;
+    public function __construct()
+    {
+        $this->warna = "Biru";
+        $this->merk = "BMW";
+        $this->harga = "10000000";
+    }
+    public function gantiWarna($warnaBaru)
+    {
+        $this->warna = $warnaBaru;
+    }
+    public function tampilWarna()
+    {
+        echo "Warna mobilnya : " . $this->warna;
+    }
+}
+// membuat objek mobil
+$a = new Mobil();
+$b = new Mobil();
+// memanggil objek
+echo "<b>Mobil pertama</b><br>";
+$a->tampilWarna();
+echo "<br>Mobil pertama ganti warna<br>";
+$a->gantiWarna("Merah");
+$a->tampilWarna();
+// memanggil objek
+echo "<br><b>Mobil kedua</b><br>";
+$b->gantiWarna("Hijau");
+$b->tampilWarna();
+```
+## Hasil Run
+
+![Screenshot (168)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/36bedd6f-8905-4d1c-8428-a9ce93337d70)
+
+
+![Screenshot (169)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/11535481-c042-4caa-afa3-8ddf87164017)
 
   
 # Sekian, Terima kasih.
