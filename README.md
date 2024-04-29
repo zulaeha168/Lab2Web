@@ -24,7 +24,18 @@ MATA KULIAH    : PEMOGRAMAN WEB 2
 
 
 ## Lab2 PHP_DASAR
-Script untuk file bernama > `php_dasar.php `
+## Instruksi Praktikum
+1. Persiapkan text editor misalnya VSCode.
+2. Buat folder baru dengan nama lab7_php_dasar pada docroot webserver (htdocs)
+3. Ikuti langkah-langkah praktikum yang akan dijelaskan berikutnya.
+
+
+## Langkah-langkah Praktikum
+1. Install XAMPP Unduh XAMPP dari https://www.apachefriends.org/download.html dan pilih versi portable untuk memudahkan proses installasi. Kemudian extract file tersebut, seusikan direktorinya (misal: d:\xampp)
+
+2. Memulai PHP Buat folder lab7_php_dasar pada root directory web server (d:\xampp\htdocs)
+
+3. PHP Dasar Buat file baru dengan nama php_dasar.php pada directory tersebut. Kemudian buat kode seperti berikut :
 
 ```
 <!DOCTYPE html>
@@ -233,8 +244,7 @@ CREATE TABLE data_barang (
     stok int(4)
 );
 ```
-
-![Screenshot (158)](https://github.com/syifaaurellia/Lab8web/assets/115867244/5b60a65b-853a-45c4-a666-81c9999ccc10)
+![Screenshot (167)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/90e56746-e5a5-4737-8827-3ba4cdb5c041)
 
 
 4. Menambah Data
@@ -299,48 +309,20 @@ header('location: index.php');
 ```
 
 ## Lab4 PHP_MODULAR
+## Instruksi Praktikum
+1. Persiapkan text editor misalnya VSCode
 
-> `Index.php`
-```
-<?php
+2. Buat folder baru dengan nama `lab9_php_modular` pada docroot webserver (htdocs)
 
-$mod = $_REQUEST['mod'];
+3. Ikuti langkah-langkah praktikum yang akan dijelaskan berikutnya
 
-switch  ($mod) {
-    case "home":
-        require("home.php");
-        break;
-    case "about":
-        require("about");
-        break;
-    default:
-        require("home.php");
-        break;
-}
-?>  
-```
+## Langkah-langkah Praktikum
+- Jalankan Apache dan MySQL server dari menu XAMPP Control
+- Kemudian buat folder baru dengan nama lab9_php_modular pada docroot webserver (c:\xampp\htdocs). Kemudian buka melalui browser dengan mengakses URL: http://localhost/lab9_php_modular/.
 
-> `Home`
-```
-<?php require('header.php'); ?>
-<div class="content">
-    <h2>Ini Halaman Home</h2>
-    <p>Ini adalah bagian content dari halaman.</p>
-</div>
-<?php require('footer.php');?>
-```
+![1](https://github.com/syifaaurellia/Lab9web/assets/115867244/ab5f4256-e26d-47be-974b-67e51867e1aa)
 
-> `Footer`
-```
-<footer>
-    <p>&copy; 2024, Teknik Informatika, Universitas Pelita Bangsa</p>
-</footer>
-</div>
-</body>
-</html>
-```
-
-> `Header`
+1. Buat file dengan nama `header.php`
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -356,32 +338,71 @@ switch  ($mod) {
         </header>
         <nav>
             <a href="home.php">Home</a>
-            <a href="about.php">About</a>
+            <a href="about.php">Tentang</a>
             <a href="kontak.php">Kontak</a>
         </nav>
+```
+
+2. Buat file dengan nama `footer.php`
+```
         <footer>
-        <p>&copy; 2024, Teknik Informatika, Universitas Pelita Bangsa</p>
-    </footer>
+            <p>&copy; 2021, Informatika, Universitas Pelita Bangsa</p>
+        </footer>
     </div>
 </body>
 </html>
 ```
 
-> `About.php`
+3. Buat file dengan nama `home.php`
+```
+<?php require('header.php'); ?>
+
+<div class="content">
+    <h2>Ini Halaman Home</h2>
+    <p>Ini adalah bagian content dari halaman.</p>
+</div>
+
+<?php require('footer.php'); ?>
+```
+
+4. Buat file dengan nama `about.php`
 ```
 <?php require('header.php'); ?>
 
 <div class="content">
     <h2>Ini Halaman About</h2>
-    <p>Ini adalah content dari halaman.</p>
+    <p>Ini adalah bagian content dari halaman.</p>
 </div>
 
-<?php require('footer.php');?>
+<?php require('footer.php'); ?>
 ```
 ## Hasil Run
 
-
 https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/3c05596b-7a15-4e9d-aee3-48529b8a8bd3
+
+## Pertanyaan dan Tugas
+> Implementasikan konsep modularisasi pada kode program Praktikum 8 tentang database, sehingga setiap halamannya memiliki template tampilan yang sama.
+
+1. Buat folder baru dengan nama `lab4_php_praktikum`
+![4](https://github.com/syifaaurellia/Lab9web/assets/115867244/f79373d0-08c9-4b93-9d46-7e7d11ac8e0a)
+
+- Setelah itu buat beberapa file sama seperti file-file yang ada pada praktikum 8, untuk script lebih lengkapnya kalian dapat langsung lihat pada folder [lab9_php_praktikum](https://github.com/syifaaurellia/Lab9web/tree/main/lab9_php_praktikum).
+
+2. Hasil Output `koneksi.php` :
+![5](https://github.com/syifaaurellia/Lab9web/assets/115867244/e5ab73df-70c2-46df-b2ca-3e5209718cf2)
+
+3. Hasil Output `home.php` :
+![Screenshot (33)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/3370a1ed-21a8-4a46-915d-97cf6d090e40)
+
+4. Hasil Output `tambah.php` :
+![Screenshot (34)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/0033d4a6-d582-4ae0-abef-e859c003fc5d)
+
+6. Hasil Output `ubah.php` :
+![Screenshot (36)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/368a8085-a1cb-4b37-aa6e-a9dc1bfcfaac)
+
+6. Hasil Output `hapus.php` :
+![Screenshot (37)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/b65179d3-7492-4328-987b-695d734ae778)
+
 
 ## Lab5 PHP_OOP
 
