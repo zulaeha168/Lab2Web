@@ -144,7 +144,7 @@ MATA KULIAH    : PEMOGRAMAN WEB 2
 
 </html>
 ```
-## Hasil Run 
+> **Output**
 ![Screenshot (170)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/dc9d6bae-765f-4d5d-8b68-22acbd783e72)
 
 ![Screenshot (171)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/1b43a7c0-3b8b-42eb-8b03-a538f81ab982)
@@ -212,8 +212,7 @@ MATA KULIAH    : PEMOGRAMAN WEB 2
 </body>
 </html>
 ```
-
-## Hasil Run
+> **Output**
 
 ![Screenshot (153)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/9e56b07b-3152-4d36-b715-4cf3c5e9058c)
 
@@ -401,7 +400,6 @@ https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/3c05596b-7a15-
 
 6. Hasil Output `hapus.php` :
 ![image](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/5e6941b0-e6b4-4efd-846a-0c4d4635704d)
-
 
 
 ## Lab5 PHP_OOP
@@ -603,7 +601,7 @@ echo "<br><b>Mobil kedua</b><br>";
 $b->gantiWarna("Hijau");
 $b->tampilWarna();
 ```
-## Hasil Run
+> **Output**
 
 ![Screenshot (168)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/36bedd6f-8905-4d1c-8428-a9ce93337d70)
 
