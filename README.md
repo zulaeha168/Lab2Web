@@ -26,7 +26,7 @@ MATA KULIAH    : PEMOGRAMAN WEB 2
 ## Lab2 PHP_DASAR
 ## Instruksi Praktikum
 1. Persiapkan text editor misalnya VSCode.
-2. Buat folder baru dengan nama lab7_php_dasar pada docroot webserver (htdocs)
+2. Buat folder baru dengan nama lab2_php_dasar pada docroot webserver (htdocs)
 3. Ikuti langkah-langkah praktikum yang akan dijelaskan berikutnya.
 
 
