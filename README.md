@@ -219,12 +219,12 @@ MATA KULIAH    : PEMOGRAMAN WEB 2
 
 ## Lab3 PHP_DATABASE
 
-## Instruksi Praktikum
+* Instruksi Praktikum
 1. Persiapkan text editor misalnya VSCode.
 2. Buat folder baru dengan nama lab3_php_database pada docroot webserver (htdocs)
 3. Ikuti langkah-langkah praktikum yang akan dijelaskan berikutnya.
 
-## Langkah-langkah Praktikum
+* Langkah-langkah Praktikum
 1. Persiapan Untuk memulai membuat aplikasi CRUD sederhana, yang perlu disiapkan adalah database server menggunakan MySQL. Pastikan MySQL Server sudah dapat dijalankan melalui XAMPP.
 
 2. Menjalankan MySQL Server Untuk menjalankan MySQL Server dari menu XAMPP Control.
@@ -275,11 +275,9 @@ if ($conn == false)
 } #else echo "Koneksi berhasil";
 ?>
 ```
-
 > Buka melalui browser untuk menguji koneksi database untuk menyampilkan pesan koneksi berhasil, ***uncomment*** pada perintah echo “koneksi berhasil”;
 
-![Screenshot (151)](https://github.com/syifaaurellia/Lab8web/assets/115867244/012e0941-ef81-47b8-9bad-5c787a740ab6)
-
+![Screenshot (24)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/4af00ce5-fd9f-47ed-8a41-a8bc43e5a4a6)
 
 7. Membuat file index untuk menampilkan data (Read), buat file baru dengan nama `index.php`
 
