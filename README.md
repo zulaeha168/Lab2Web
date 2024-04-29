@@ -309,14 +309,14 @@ header('location: index.php');
 ![Screenshot (25)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/9b870184-a856-4876-aed7-8e9415ae39d7)
 
 ## Lab4 PHP_MODULAR
-## Instruksi Praktikum
+* Instruksi Praktikum
 1. Persiapkan text editor misalnya VSCode
 
 2. Buat folder baru dengan nama `lab9_php_modular` pada docroot webserver (htdocs)
 
 3. Ikuti langkah-langkah praktikum yang akan dijelaskan berikutnya
 
-## Langkah-langkah Praktikum
+* Langkah-langkah Praktikum
 - Jalankan Apache dan MySQL server dari menu XAMPP Control
 - Kemudian buat folder baru dengan nama lab9_php_modular pada docroot webserver (c:\xampp\htdocs). Kemudian buka melalui browser dengan mengakses URL: http://localhost/lab9_php_modular/.
 ![image](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/affe1246-9b18-46c8-a078-df966143e434)
@@ -375,7 +375,7 @@ header('location: index.php');
 
 <?php require('footer.php'); ?>
 ```
-## Hasil Run
+> **Output**
 
 https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/3c05596b-7a15-4e9d-aee3-48529b8a8bd3
 
