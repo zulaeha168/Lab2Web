@@ -258,7 +258,7 @@ VALUES ('Elektronik', 'HP Samsung Android', 'hp_samsung.jpg', 2000000, 2400000, 
 ![Screenshot (150)](https://github.com/syifaaurellia/Lab8web/assets/115867244/db3281b0-e06c-4461-98e6-33821fedf087)
 
 
-5. Membuat Program CRUD, Buat folder lab8_php_database pada root directory web server (d:\xampp\htdocs)
+5. Membuat Program CRUD, Buat folder lab3_php_database pada root directory web server (d:\xampp\htdocs)
 
 6. Membuat file koneksi database, Buat file baru dengan nama `koneksi.php`
 ```
@@ -284,7 +284,7 @@ if ($conn == false)
 7. Membuat file index untuk menampilkan data (Read), buat file baru dengan nama `index.php`
 
 > **Akses File-->>**[index.php](index.php)
-![Screenshot (25)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/4f650941-b529-4536-9e18-64b9eaf55bf2)
+![image](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/674ae4f3-6c43-4722-a001-77b4d8774fdd)
 
 8. Menambah Data (Create), buat file baru dengan nama `tambah.php`
 
@@ -307,6 +307,8 @@ $result = mysqli_query($conn, $sql);
 header('location: index.php');
 >
 ```
+> **Akses File-->>**[hapus.php](hapus.php)
+![Screenshot (27)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/3039093e-9a41-43bc-8d93-b4a988f74dd7)
 
 ## Lab4 PHP_MODULAR
 ## Instruksi Praktikum
@@ -319,8 +321,7 @@ header('location: index.php');
 ## Langkah-langkah Praktikum
 - Jalankan Apache dan MySQL server dari menu XAMPP Control
 - Kemudian buat folder baru dengan nama lab9_php_modular pada docroot webserver (c:\xampp\htdocs). Kemudian buka melalui browser dengan mengakses URL: http://localhost/lab9_php_modular/.
-
-![1](https://github.com/syifaaurellia/Lab9web/assets/115867244/ab5f4256-e26d-47be-974b-67e51867e1aa)
+![image](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/affe1246-9b18-46c8-a078-df966143e434)
 
 1. Buat file dengan nama `header.php`
 ```
@@ -381,7 +382,7 @@ header('location: index.php');
 https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/3c05596b-7a15-4e9d-aee3-48529b8a8bd3
 
 ## Pertanyaan dan Tugas
-> Implementasikan konsep modularisasi pada kode program Praktikum 8 tentang database, sehingga setiap halamannya memiliki template tampilan yang sama.
+> Implementasikan konsep modularisasi pada kode program Praktikum 3 tentang database, sehingga setiap halamannya memiliki template tampilan yang sama.
 
 1. Buat folder baru dengan nama `lab4_php_praktikum`
 ![4](https://github.com/syifaaurellia/Lab9web/assets/115867244/f79373d0-08c9-4b93-9d46-7e7d11ac8e0a)
@@ -392,16 +393,17 @@ https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/3c05596b-7a15-
 ![5](https://github.com/syifaaurellia/Lab9web/assets/115867244/e5ab73df-70c2-46df-b2ca-3e5209718cf2)
 
 3. Hasil Output `home.php` :
-![Screenshot (33)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/3370a1ed-21a8-4a46-915d-97cf6d090e40)
+![image](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/0b578a51-fc91-4b4b-9841-3c375cdcced6)
 
 4. Hasil Output `tambah.php` :
-![Screenshot (34)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/0033d4a6-d582-4ae0-abef-e859c003fc5d)
+![image](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/9b13689c-4149-4497-92e3-b14db590c061)
 
 6. Hasil Output `ubah.php` :
-![Screenshot (36)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/368a8085-a1cb-4b37-aa6e-a9dc1bfcfaac)
+![image](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/29cc0ce6-1e49-42c1-aced-9cd14b26eba5)
 
 6. Hasil Output `hapus.php` :
-![Screenshot (37)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/b65179d3-7492-4328-987b-695d734ae778)
+![image](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/5e6941b0-e6b4-4efd-846a-0c4d4635704d)
+
 
 
 ## Lab5 PHP_OOP
