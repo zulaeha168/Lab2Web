@@ -31,7 +31,7 @@ MATA KULIAH    : PEMOGRAMAN WEB 2
 ## Langkah-langkah Praktikum
 1. Install XAMPP Unduh XAMPP dari https://www.apachefriends.org/download.html dan pilih versi portable untuk memudahkan proses installasi. Kemudian extract file tersebut, seusikan direktorinya (misal: d:\xampp)
 
-2. Memulai PHP Buat folder lab7_php_dasar pada root directory web server (d:\xampp\htdocs)
+2. Memulai PHP Buat folder lab2_php_dasar pada root directory web server (d:\xampp\htdocs)
 
 3. PHP Dasar Buat file baru dengan nama php_dasar.php pada directory tersebut. Kemudian buat kode seperti berikut :
 
