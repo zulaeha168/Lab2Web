@@ -309,7 +309,7 @@ header('location: index.php');
 * Instruksi Praktikum
 1. Persiapkan text editor misalnya VSCode
 
-2. Buat folder baru dengan nama `lab9_php_modular` pada docroot webserver (htdocs)
+2. Buat folder baru dengan nama `lab4_php_modular` pada docroot webserver (htdocs)
 
 3. Ikuti langkah-langkah praktikum yang akan dijelaskan berikutnya
 
@@ -401,6 +401,15 @@ https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/3c05596b-7a15-
 
 
 ## Lab5 PHP_OOP
+* Instruksi Praktikum
+1. Persiapkan text editor misalnya VSCode
+
+2. Buat folder baru dengan nama `lab5_php_oop` pada docroot webserver (htdocs)
+
+3. Ikuti langkah-langkah praktikum yang akan dijelaskan berikutnya
+
+* Langkah-langkah Praktikum
+- Buat file baru
 
 > `Database.php`
 ```
