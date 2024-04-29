@@ -315,7 +315,7 @@ header('location: index.php');
 
 * Langkah-langkah Praktikum
 - Jalankan Apache dan MySQL server dari menu XAMPP Control
-- Kemudian buat folder baru dengan nama lab4_php_modular pada docroot webserver (c:\xampp\htdocs). Kemudian buka melalui browser dengan mengakses URL: http://localhost/lab9_php_modular/.
+- Kemudian buat folder baru dengan nama lab4_php_modular pada docroot webserver (c:\xampp\htdocs). Kemudian buka melalui browser dengan mengakses URL: http://localhost/lab4_php_modular/.
 ![image](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/affe1246-9b18-46c8-a078-df966143e434)
 
 1. Buat file dengan nama `header.php`
@@ -383,7 +383,7 @@ https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/3c05596b-7a15-
 ![Screenshot (48)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/e10a3268-ee78-4c20-a51a-abfa0c89a75e)
 
 - Setelah itu buat beberapa file sama seperti file-file yang ada pada praktikum 3, untuk script lebih lengkapnya kalian dapat langsung lihat pada folder
-[lab4_php_praktikum]
+lab4_php_praktikum.
 
 2. Hasil Output `koneksi.php` :
    
