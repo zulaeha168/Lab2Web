@@ -22,13 +22,13 @@ MATA KULIAH    : PEMOGRAMAN WEB 2
 
 
 ## Lab2 PHP_DASAR
-## Instruksi Praktikum
+* Instruksi Praktikum
 1. Persiapkan text editor misalnya VSCode.
 2. Buat folder baru dengan nama lab2_php_dasar pada docroot webserver (htdocs)
 3. Ikuti langkah-langkah praktikum yang akan dijelaskan berikutnya.
 
 
-## Langkah-langkah Praktikum
+* Langkah-langkah Praktikum
 1. Install XAMPP Unduh XAMPP dari https://www.apachefriends.org/download.html dan pilih versi portable untuk memudahkan proses installasi. Kemudian extract file tersebut, seusikan direktorinya (misal: d:\xampp)
 
 2. Memulai PHP Buat folder lab2_php_dasar pada root directory web server (d:\xampp\htdocs)
