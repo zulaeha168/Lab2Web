@@ -281,17 +281,17 @@ if ($conn == false)
 
 7. Membuat file index untuk menampilkan data (Read), buat file baru dengan nama `index.php`
 
-> **Akses File-->>**[index.php](index.php)
+> **Output**
 ![image](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/674ae4f3-6c43-4722-a001-77b4d8774fdd)
 
 8. Menambah Data (Create), buat file baru dengan nama `tambah.php`
 
-> **Akses File-->>**[tambah.php](tambah.php)
+> **Output**
 ![Screenshot (26)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/1f29937e-80c3-437d-b5fe-6bc80345e29b)
 
 9. Mengubah Data (Update), buat file baru dengan nama `ubah.php`
 
-> **Akses File-->>**[ubah.php](ubah.php)
+> **Output**
 
 ![Screenshot (27)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/3039093e-9a41-43bc-8d93-b4a988f74dd7)
 
@@ -305,8 +305,8 @@ $result = mysqli_query($conn, $sql);
 header('location: index.php');
 >
 ```
-> **Akses File-->>**[hapus.php](hapus.php)
-![Screenshot (27)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/3039093e-9a41-43bc-8d93-b4a988f74dd7)
+> **Output**
+![Screenshot (25)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/9b870184-a856-4876-aed7-8e9415ae39d7)
 
 ## Lab4 PHP_MODULAR
 ## Instruksi Praktikum
