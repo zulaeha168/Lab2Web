@@ -315,7 +315,7 @@ header('location: index.php');
 
 * Langkah-langkah Praktikum
 - Jalankan Apache dan MySQL server dari menu XAMPP Control
-- Kemudian buat folder baru dengan nama lab9_php_modular pada docroot webserver (c:\xampp\htdocs). Kemudian buka melalui browser dengan mengakses URL: http://localhost/lab9_php_modular/.
+- Kemudian buat folder baru dengan nama lab4_php_modular pada docroot webserver (c:\xampp\htdocs). Kemudian buka melalui browser dengan mengakses URL: http://localhost/lab9_php_modular/.
 ![image](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/affe1246-9b18-46c8-a078-df966143e434)
 
 1. Buat file dengan nama `header.php`
@@ -380,23 +380,29 @@ https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/3c05596b-7a15-
 > Implementasikan konsep modularisasi pada kode program Praktikum 3 tentang database, sehingga setiap halamannya memiliki template tampilan yang sama.
 
 1. Buat folder baru dengan nama `lab4_php_praktikum`
-![4](https://github.com/syifaaurellia/Lab9web/assets/115867244/f79373d0-08c9-4b93-9d46-7e7d11ac8e0a)
+![Screenshot (48)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/e10a3268-ee78-4c20-a51a-abfa0c89a75e)
 
-- Setelah itu buat beberapa file sama seperti file-file yang ada pada praktikum 8, untuk script lebih lengkapnya kalian dapat langsung lihat pada folder [lab9_php_praktikum](https://github.com/syifaaurellia/Lab9web/tree/main/lab9_php_praktikum).
+- Setelah itu buat beberapa file sama seperti file-file yang ada pada praktikum 3, untuk script lebih lengkapnya kalian dapat langsung lihat pada folder
+[lab4_php_praktikum]
 
 2. Hasil Output `koneksi.php` :
-![5](https://github.com/syifaaurellia/Lab9web/assets/115867244/e5ab73df-70c2-46df-b2ca-3e5209718cf2)
+   
+![Screenshot (24)](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/8d56ff81-e91b-433b-b51f-686e57dfaab8)
 
-3. Hasil Output `home.php` :
+4. Hasil Output `home.php` :
+   
 ![image](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/0b578a51-fc91-4b4b-9841-3c375cdcced6)
 
-4. Hasil Output `tambah.php` :
+6. Hasil Output `tambah.php` :
+   
 ![image](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/9b13689c-4149-4497-92e3-b14db590c061)
 
-6. Hasil Output `ubah.php` :
+8. Hasil Output `ubah.php` :
+   
 ![image](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/29cc0ce6-1e49-42c1-aced-9cd14b26eba5)
 
 6. Hasil Output `hapus.php` :
+   
 ![image](https://github.com/zulaeha168/ModulPraktikumWeb2/assets/130324650/5e6941b0-e6b4-4efd-846a-0c4d4635704d)
 
 
